@@ -1,0 +1,44 @@
+<script>
+    function paying() {
+    
+        var penny = 0.01;
+    var dime = 0.10;
+    var nickel = 0.05;
+    var quarter = 0.25;
+    var dollar = 1;
+    var iCost = prompt("How much does your item cost?");
+    var payment = prompt("How much will you pay?");
+    var change = (payment - iCost);
+ 
+        //if the person pays more than how much //it costs
+    //give them change back
+    
+        if(payment > iCost) { 
+            var dollars = Math.floor(change/dollar);
+      console.log("You get this number of dollars back: " + dollars);
+            change = change - (dollars * dollar);
+           var quarters = Math.floor(change/quarter);
+            console.log("You get this number of quarters back: " +  quarters);
+            change = change - (quarters * quarter);
+        var dimes = Math.floor(change/dime);
+            console.log("You get this number of dimes back: " + dimes);
+            change = change - (dimes * dime);
+            var nickels = Math.floor(change/nickel);
+            console.log("You get this number of nickels back: " + nickels);
+            change = change - (nickels * nickel);
+             var pennys = Math.floor(change/penny);
+            console.log("You get this number of pennies back: " + pennys);
+            change = change - (pennys * penny);
+      //assign coin values to the change
+
+        
+           
+        }
+  
+            
+        
+    
+    
+}
+    paying();
+</script>
