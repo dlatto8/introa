@@ -1,0 +1,48 @@
+<html>
+<head></head>
+<body>
+Dan Latto
+<canvas id="myCanvas" width="750" height="750"></canvas>
+<script>
+var canvasWidth = 750;
+    var canvasHeight = 750;
+    // ctx.beginPath();
+    //ctx.lineWidth="6";
+    //ctx.fillStyle="#af2432";
+    //ctx.fillRect(0,0,50,750);
+    //ctx.stroke();
+ 
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");   
+    
+    ctx.beginPath();
+    ctx.fillStyle="#DCD6CA";
+    ctx.fillRect(0,0,750,750);
+    ctx.closePath();
+    
+    ctx.beginPath();
+    ctx.fillStyle = "#BE4F2C";
+    ctx.fillRect(80,80,600,600);
+    ctx.closePath();
+    
+    ctx.beginPath();
+    ctx.fillStyle = "#418887";
+    ctx.fillRect(330,80,100,375);
+    ctx.closePath();
+    //rgba(1)
+    
+    ctx.beginPath();
+    ctx.fillStyle = "#808F8A";
+    ctx.fillRect(135,305,55,375);
+    ctx.closePath();
+    
+    ctx.beginPath();
+    ctx.fillStyle = "#818D8B";
+    ctx.fillRect(545,380,75,300);
+    ctx.closePath();
+    
+    
+      
+</script>
+</body>
+</html>
