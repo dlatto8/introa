@@ -1,0 +1,49 @@
+body {
+ background: #ACF0F2;   
+}
+#photoWrapper {
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+    
+}
+#happiness {
+    background-color:#F3FFE2;width:120px;height:20px;padding:40px;
+    margin-left: 20%;
+}
+#thePhoto {    
+    max-width: 645px;
+    min-width: 645px;
+    max-height: 450px;
+    min-height: 450px;
+}
+#forwardBtn {
+ position: relative; 
+    float:right;
+}
+button {
+ background: #EB7F00;
+    color: white;
+}
+.centerMe{
+    text-align: center;
+    color: #225387;
+}
+h1 {font-family: 'Shrikhand', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Architects Daughter', cursive;
+}
+.pageWrapper {
+    width: 70%
+        margin-left: 15%;
+    padding: 20px 20px 20px 20px;
+    background-color: #F3FFE2
+        }
+#chart_div {
+    margin-left: 60%;
+    
+}
+#onmouseover {
+    margin-left: 25%;
+}
